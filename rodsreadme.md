@@ -1,24 +1,24 @@
 * Rodsreadme
 
-* [Installation](#installation)
-* [Usage](#usage)
+* [installation](#installation)
+* [usage](#usage)
 * [contribution](#contribution)
-* [Credits](#credits)
-* [License](#license)
-* Installation
-npm i
-## Usage
-undefined
-## Contribution
+* [credits](#credits)
+* [license](#license)
+* installation
+installation
+## usage
+usage
+## contribution
 undefined
 ### process
+process
+## credentials
 undefined
-## Credentials
-undefined
-## License
+## license
 The MIT License
 
 # Contact
-* Github :Graydude98
+* Github :undefined
 * Linkedin :undefined
 * E-mail :rodericksimani@yahoo.com

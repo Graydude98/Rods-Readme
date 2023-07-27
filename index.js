@@ -8,32 +8,32 @@ inquirer.prompt(
         {
             type: 'input',
             message:"What's the readme title?",
-            name:'title',
+            name:'rodsreadme',
             //validate property to check that the user provided a value
             validate: (value)=>{if(value){return true} else {return 'i need a value to continue'}},
         },
         {
             type:'input',
-            message:'how do you install this application?',
+            message:'How do you install this application?',
             name:'installation',
             validate: (value)=>{if(value){return true} else {return 'i need a value to continue'}},
         },
         {   
             type:'input',
-            message:'process for installation?',
-            name:'Process',
+            message:'Process for installation?',
+            name:'process',
             validate: (value)=>{if(value){return true} else {return 'i need a value to continue'}},
         }, 
         {    
             type:'input',
-            message:'Credentials?',
+            message:'What are the credentials?',
             name:'installation',
             validate: (value)=>{if(value){return true} else {return 'i need a value to continue'}},
         },
         {    
             type:'input',
             message:'How to utilize application?',
-            name:'Utilization',
+            name:'usage',
             validate: (value)=>{if(value){return true} else {return 'i need a value to continue'}},
         },
         {    
@@ -63,7 +63,7 @@ inquirer.prompt(
     process,
     credentials,
     license,
-    git,
+    graydude98,
     linkedin,
     email,
     usage,
@@ -72,22 +72,22 @@ inquirer.prompt(
 //template to be used
 const template = `* ${title}
 
-* [Installation](#installation)
-* [Usage](#usage)
+* [installation](#installation)
+* [usage](#usage)
 * [contribution](#contribution)
-* [Credits](#credits)
-* [License](#license)
-* Installation
+* [credits](#credits)
+* [license](#license)
+* installation
 ${installation}
-## Usage
+## usage
 ${usage}
-## Contribution
+## contribution
 ${contribution}
 ### process
 ${process}
-## Credentials
+## credentials
 ${credentials}
-## License
+## license
 ${license}
 
 # Contact
