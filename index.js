@@ -70,14 +70,14 @@ inquirer.prompt(
     contribution,
 })=>{
 //template to be used
-const template = `* ${title}
+const template = `* # ${title}
 
 * [installation](#installation)
 * [usage](#usage)
 * [contribution](#contribution)
 * [credits](#credits)
 * [license](#license)
-* installation
+* # installation
 ${installation}
 ## usage
 ${usage}
